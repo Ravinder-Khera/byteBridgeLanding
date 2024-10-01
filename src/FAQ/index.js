@@ -12,7 +12,7 @@ function FAQ() {
         <div className="row  text-start">
           <div className="col-lg-6 col-sm-12 col-md-12">
             <h1 className="FAQHead">    
-              Frequently <br></br>Asked Questions 
+              Frequently <br></br>Asked Questions
             </h1>
             <p className="FAQpara">
               Here are brief answers to common questions about Samael Jakhoris'
