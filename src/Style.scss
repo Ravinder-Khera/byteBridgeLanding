@@ -1,0 +1,724 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+.navbar {
+  @media screen and (max-width: 575px) {
+    padding:0px 10px ;
+   }
+   .btnConnect {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    border: 1px solid #000000;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-brand {
+    img {
+      max-width: 287px;
+      @media screen and (max-width: 767px) {
+        max-width: 200px;
+      }
+    }
+  }
+}
+.Banner {
+  position: relative;
+  @media screen and (max-width: 575px) {
+    padding:0px;
+   }
+  .backImg {
+    position: absolute;
+    z-index: -1;
+  }
+  .backImg1 {
+    max-width: 254px;
+    width: 100%;
+    max-height: 509px;
+    height: 100%;
+    left: 0%;
+    top: 15%;
+  }
+  .backImg2 {
+    max-width: 259.28px;
+    width: 100%;
+    max-height: 250px;
+    height: 100%;
+    left: 35%;
+    opacity: 0.2px;
+    top: 65%;
+    @media screen and (max-width: 992px) {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    @media screen and (min-width: 1400px) {
+      left: 50%;
+      transform: translateX(-50%);
+      top: 68%;
+    }
+  }
+  .backImg3 {
+    max-width: 255px;
+    width: 100%;
+    max-height: 264px;
+    height: 100%;
+    top: 60%;
+    right: 0%;
+  }
+  .bannerContain {
+    padding-top: 17px;
+    @media screen and (max-width: 992px) {
+      padding-top: 50px;
+    }
+    @media screen and (max-width: 575px) {
+      padding:50px 20px 0px 20px;
+     }
+    // @media screen and (max-width: 575px) {
+    //   padding-left: 20px;
+    //   padding-right: 20px;
+    // }
+    .heading1 {
+      gap: 5px;
+    }
+    .logoImage {
+      width: 24px;
+      height: 24px;
+    }
+    .emotion {
+      font-family: "Rubik", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      width: 693px;
+      height: 24px;
+      line-height: 23.7px;
+    }
+    .heading {
+      font-family: "PT Serif", serif;
+      font-size: 75px;
+      font-weight: 400;
+      line-height: 88.29px;
+      text-align: left;
+      @media screen and (max-width: 767px) {
+        font-size: 42px;
+      }
+    }
+    .para {
+      font-family: "Rubik", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: left;
+    }
+    .btnView {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24.2px;
+      background-color: #3a87fa;
+      color: #ffffff;
+      border: none;
+      margin-top: 45px;
+    }
+    .bannerColumn2 {
+      padding: 93px 0px;
+      @media screen and (max-width : 575px) {
+      padding: 0px 10px        
+      }
+      @media screen and (max-width: 992px) {
+        padding: 0px 10px;
+      }
+    }
+  }
+}
+.btnCommon {
+  font-family: "Inter", sans-serif;
+  padding: 16px 24px;
+  gap: 10px;
+  border-radius: 7px;
+  @media screen and (max-width: 575px) {
+    padding: 8px 12px;
+  }
+}
+.maxContain {
+  @media screen and (min-width: 1401px) {
+    max-width: 1420px;
+  }
+  @media screen and (max-width: 575px) {
+    padding-top: 50px;
+  }
+  .bannerColumn1 {
+    @media screen and (min-width: 992px) {
+      padding-right: 53px;
+    }
+  }
+}
+.buyNFT {
+  position: relative;
+  @media screen and (max-width: 992px) {
+    padding: 0px;
+  }
+  @media screen and (max-width: 575px) {
+    padding:0px 20px ;
+   }
+  .backImgbuy {
+    position: absolute;
+    max-width: 130px;
+    width: 100%;
+    height: 100%;
+    max-height: 126px;
+    right: 0%;
+    top: -20px;
+    opacity: 0.1px;
+    z-index: -1;
+    @media screen and (min-width: 1401) {
+      max-width: 261px;
+      max-height: 252px;
+    }
+  }
+  .buyContainer {
+    margin-top: 180px;
+    @media screen and (max-width: 1200px) {
+      max-width: 1274px;
+    }
+    @media screen and (max-width: 992px) {
+      padding: 60px 10px;
+    }
+    @media screen and (max-width:575px) {
+      padding: 0px;
+    }
+    .buyColumn1{
+      @media screen and (max-width: 992px) {
+        padding: 0px;
+    }
+    .buyImage {
+      max-height: 598.86px;
+      height: auto;
+      // padding: 0px;
+      @media screen and (max-width: 992px) {
+        padding: 0px 12px;
+      }
+    }
+  }
+    .buyColumn2 {
+      padding-left: 48px;
+      @media screen and (max-width: 992px) {
+        padding: 30px 25px;
+      }
+      @media screen and (max-width: 575px) {
+        padding:20px 20px ;
+       }
+      .heading2 {
+        svg {
+          padding: 5px 3px 0px 3px;
+        }
+      }
+      .joyHeading {
+        font-family: "PT Serif", serif;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 75.34px;
+        text-align: left;
+        @media screen and (max-width: 767px) {
+          font-size: 40px;
+        }
+      }
+      .progressValue {
+        font-family: "PT Serif", serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.25px;
+        padding-top: 18px;
+      }
+      .progressBar {
+        margin-bottom: 50px;
+      }
+      .progressPrice {
+        font-family: "Rubik", sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 25.9px;
+        text-align: left;
+        padding: 9px 27px;
+        border-radius: 5px 0px 0px 0px;
+        .progressPrice1 {
+          padding: 9px 9px 9px 27px;
+          margin-top: 10px;
+        }
+        .valueButton {
+          background-color: #e8f1ff;
+          border-radius: 7px;
+          .IncButton,h1 {
+            margin-bottom: 0;
+            font-family: "Rubik", sans-serif;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 38.19px;
+            border-radius: 7px;
+            padding: 9px 20px;
+            background-color: #e8f1ff;
+          }
+        }
+      }
+    }
+    .buyButton {
+      margin-top: 34px;
+      padding: 21.91px 32.87px 21.91px 32.87px;
+      border-radius: 7px;
+      background-color: #3a87fa;
+      opacity: 0px;
+      font-family: "Rubik", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28.44px;
+      color: #ffffff;
+    }
+  }
+}
+.Content {
+  margin-top: 90px;
+  border-radius: 13px;
+  padding: 25px;
+  background: #F9FBFE;
+  @media screen and (min-width: 992px) {
+    max-width: 1420px;
+    margin-top: 180px;
+    padding: 25px 150px;
+  }
+  @media screen and (max-width: 575px) {
+    padding:20px ;
+   }
+  .contentArtist {
+    font-family: "PT Serif", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.25px;
+    padding-top: 37.5px;
+    padding-bottom: 0px;
+    color: black;
+    text-decoration: underline;
+  }
+  .contentHeading {
+    font-family: "PT Serif", serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75.34px;
+    text-align: center;
+    @media screen and (max-width: 992px) {
+      font-size: 48px;
+    }
+  }
+  .contentPara {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    padding-top: 16px;
+    .contentPara1 {
+      padding-top: 27px;
+    }
+  }
+}
+.columnSection {
+  margin-top: 150px;
+  position: relative;
+  @media screen and (max-width: 992px) {
+    margin-top: 60px;
+  }
+
+  .columnSection1 {
+    padding: 0px 42px;
+    @media screen and (max-width: 992px) {
+      padding: 0px 30px;
+    }
+  
+    .About {
+      font-family: "PT Serif", serif;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 56.5px;
+      text-align: left;
+    }
+    .collection {
+      font-family: "Rubik", sans-serif;
+      padding-top: 16px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-align: left;
+    }
+  }
+  .flowerimage {
+    border-radius: 14px;
+    @media screen and (max-width: 575px) {
+      padding:0px 15px ;
+     }
+  }
+}
+.customMakeShiftBg {
+  // max-width: 1760px;
+  margin: 0 auto;
+  position: relative;
+  @media screen and (max-width: 575px) {
+    padding:0px ;
+   }
+  .backImage {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    
+  }
+  .backImage1 {
+    position: absolute;
+    z-index: -1;
+    max-width: 254px;
+    width: 100%;
+    max-height: 509px;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+  }
+}
+.Sliding {
+  background: #f9fbfe;
+  margin-top: 84px;
+  position: relative;
+  padding: 89.25px 0px;
+  @media screen and (max-width: 992px) {
+    margin-top: 40px;
+    padding: 60px 0px;
+  }
+  @media screen and (max-width: 575px) {
+    padding: 40px 5px ;
+  }
+  .mainImg {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    max-width: 130px;
+    width: 100%;
+    max-height: 252px;
+    height: 100%;
+    top: 180px;
+  }
+  .mainImg2 {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    // width: 100%;
+    // max-width: 156px;
+    // max-height: 218px;
+    // height: 100%;
+    bottom: 0%;
+    transform: translateY(50%);
+  }
+  .Slidings{
+    @media screen and (max-width: 992px) {
+      margin-top: 40px;
+      padding: 0px 20px 0px 20px;
+    }
+    @media screen and (max-width: 575px) {
+      padding:0px 25px ;
+     }
+  .text-start{
+    font-family:"PT Serif", serif;
+font-size: 64px;
+font-weight: 400;
+line-height: 75.34px;
+text-align: center;
+@media screen and (max-width: 575px) {
+font-size: 30px;
+line-height: 50px;
+ }
+  }
+
+  .sliderMainbtn {
+    gap: 11px;
+    display: flex;
+    justify-content: end;
+    .sliderButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      border: 1px solid #3a87fa;
+      padding: 6px;
+      box-shadow: none;
+      outline: none;
+      &:hover {
+        background-color: #3a87fa;
+        svg {
+          path {
+            fill: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+  .slideStart {
+    padding: 0px 10px;
+    .sliderImage {
+      padding-top: 45px;
+      @media screen and (max-width: 992px) {
+       padding-top:25px ;
+      }
+      img {
+        width: 100%;
+        object-fit: cover;
+        max-width: 100%;
+        height: 397px;
+        border-radius: 13px;
+        @media screen and (max-width: 992px) {
+          height: 297px;
+        }
+      }
+    }
+
+    .textContainer {
+      padding: 13px 0 0 0;
+      .title {
+        font-family: "Rubik", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        text-align: left;
+      }
+      .titleSpan {
+        font-family: "Rubik", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+        color: #000000cc;
+      }
+      .head {
+        font-family: "PT Serif", serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28.25px;
+        text-align: left;
+      }
+      .para {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+      }
+    }
+  }
+  .progress-bar {
+    background-color: #1862d0;
+    border: 6px solid #1862d0;
+  }
+}
+.mainFAQ {
+  margin-top: 180px;
+  background: #f9fbfe;
+  position: relative;
+  padding: 130px 0px;
+  @media screen and (max-width: 992px) {
+    margin-top: 80px;
+    padding: 40px 0px;
+  }
+  @media screen and (max-width: 575px) {
+    padding:0px 0px;
+   }
+  .faqImg1 {
+    position: absolute;
+    z-index: -1;
+    max-width: 261px;
+    width: 100%;
+    height: 100%;
+    max-height: 252px;
+    top: 15%;
+    left: 0%;
+  }
+  .faqImg2 {
+    position: absolute;
+    max-width: 337px;
+    max-height: 337px;
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
+    left: 360px;
+    @media screen and (max-width: 992px) {
+      left: 30%;
+      top: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .faqImg3 {
+    position: absolute;
+    z-index: -1;
+    max-width: 124px;
+    max-height: 132px;
+    right: 0%;
+    bottom: 0%;
+    border-radius: 120px;
+    width: 100%;
+    height: 100%;
+  }
+  .FAQ {
+    @media screen and (max-width:575px) {
+      padding-bottom: 25px;
+    }
+    .FAQHead {
+      font-family: "PT Serif", serif;
+      font-size: 64px;
+      font-weight: 400;
+      line-height: 75.34px;
+      color: #000000;
+      padding-right: 120px;
+      @media screen and (max-width: 992px) {
+        padding: 0px 20px;
+      }
+      @media screen and (max-width: 575px) {
+        padding:0px 10px;
+        font-size: 48px;
+        line-height: 62px;
+       }
+    }
+    .FAQpara {
+      font-family: "Rubik", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      padding-top: 10px;
+      padding-right: 120px;
+      @media screen and (max-width: 992px) {
+        padding: 0px 20px;
+      }
+      @media screen and (max-width: 575px) {
+        padding:0px 10px;
+       }
+    }
+    .FAQcolumn2{
+      .accordion-item {
+        &:not(:first-child){
+          margin-top: 30px;
+        }
+      }
+      @media screen and (max-width: 575px) {
+        padding:0px 0px;
+       }
+    .accordion-button {
+      @media screen and (max-width:575px) {
+        padding: 10px 20px;
+      }
+      &::after {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cpath d='M7 14H14M21 14H14M14 14V7M14 14V21' stroke='%234C4C4C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+          width: 28px;
+          height: 28px;
+          background-size: contain;
+      }
+      outline: none;
+      box-shadow: none;
+      color: black;
+      background: none;
+      gap: 30px;
+      &:not(.collapsed)::after{
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cpath d='M6 14H14H22' stroke='%234C4C4C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+      padding: 48px 40px;
+    }
+    .accordion-body{
+      padding: 0;
+      .faqPara{
+        margin-bottom: 0;
+        padding: 0 40px 40px 40px;
+        @media screen and (max-width: 575px) {
+          padding: 0 20px 20px 20px;
+        }
+      }
+    }
+    .faqHeading {
+      font-family: "PT Serif", serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      margin-bottom: 0;
+      @media screen and (max-width: 992px) {
+        padding: 0px;
+      }
+      @media screen and (max-width: 575px) {
+        padding:0px ;
+        font-size: 18px;
+        line-height: 24px;
+       }
+    }
+    }
+    .faqPara {
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.006em;
+      padding: 40px;
+      @media screen and (max-width: 992px) {
+        padding: 0px;
+      }
+      @media screen and (max-width: 575px) {
+        padding:0px;
+       }
+    }
+  }
+}
+.mainFooter{
+  background: #141414;
+  padding-top: 38px;
+  padding-bottom: 28px;
+  @media screen and (max-width:992px) {
+    padding-top: 19px;
+  }
+  @media screen and (max-width: 575px) {
+    padding:0px 20px ;
+   }
+  .footerColumn1{
+    @media screen and (max-width:575px) {
+      display: flex;
+      flex-direction: column;
+      .svgIcon{
+        margin-top: 10px;
+      }
+    }
+  }
+  .footerImg{
+    max-width: 287px;
+max-height: 70.57px;
+  }
+  .svgIcon{
+    gap: 32.17px;
+    display: flex;
+    button{
+      outline: none;
+      box-shadow: none;
+      width: 40px;
+height: 40px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0;
+background: #3A87FA;
+    }
+  }
+  .footerLine{
+    border: 1px solid #FFFFFF;
+opacity: 0.3px;
+margin-top: 29px;
+  }
+  .footerPara{
+    padding-top: 22px;
+    font-family:"Rubik", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.006em;
+text-align: center;
+color: #FFFFFF;
+  }
+}
